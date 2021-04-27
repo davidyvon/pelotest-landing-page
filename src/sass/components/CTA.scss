@@ -1,0 +1,148 @@
+.cta {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin: 0 2.4rem;
+	padding: 4.2rem 2.2rem 0 2.2rem;
+	border-radius: 10px;
+	background-color: $light;
+
+	&::after {
+		content: '';
+		position: absolute;
+		left: 7.5rem;
+		top: 3.4rem;
+		width: 19.75rem;
+		height: 19.75rem;
+		border-radius: 100%;
+		background-color: $primary;
+		display: none;
+
+		@include media-lg {
+			display: block;
+			width: 36.4rem;
+			height: 36.4rem;
+			left: 15.8rem;
+			top: 7rem;
+		}
+	}
+
+	@include media-md {
+		margin: 0 10.7rem 10.3rem 10.7rem;
+		padding: 3.7rem 2.2rem 0 2.2rem;
+		text-align: left;
+	}
+
+	@include media-lg {
+		flex-direction: row;
+	}
+}
+
+.cta__content {
+	position: relative;
+	z-index: 1;
+	margin-bottom: 3rem;
+
+	@include media-lg {
+		width: 50%;
+	}
+}
+
+.cta__heading {
+	font-size: 3.2rem;
+	line-height: 3.2rem;
+	margin-bottom: 1.6rem;
+	color: $dark;
+
+	@include media-md {
+		font-size: 4rem;
+		line-height: 4rem;
+		max-width: 49.5rem;
+	}
+}
+
+.cta__paragraph {
+	font-size: 1.6rem;
+	line-height: 2.24rem;
+	color: $dark;
+	margin-bottom: 2.4rem;
+
+	@include media-md {
+		max-width: 49.5rem;
+	}
+}
+
+.cta__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 5.6rem;
+	margin-bottom: 4.2rem;
+	letter-spacing: 0.12em;
+	font-weight: $bold;
+	text-transform: uppercase;
+	border-radius: 2px;
+	color: $primary;
+	background-color: $dark;
+
+	@include media-lg {
+		max-width: 30.3rem;
+		margin-bottom: 0;
+	}
+
+	.cta__arrow-icon {
+		margin-left: 1rem;
+		filter: invert(91%) sepia(12%) saturate(1004%) hue-rotate(48deg) brightness(103%) contrast(102%);
+	}
+}
+
+.cta__image-container {
+	position: relative;
+	z-index: 1;
+	order: 1;
+	padding-top: 2.2rem;
+	overflow-y: hidden;
+	transform: translate(-2rem, 0.5rem);
+
+	&::after {
+		content: '';
+		position: absolute;
+		z-index: -1;
+		left: 7.5rem;
+		top: 3.4rem;
+		width: 19.75rem;
+		height: 19.75rem;
+		border-radius: 100%;
+		background-color: $primary;
+		display: block;
+
+		@include media-lg {
+			display: none;
+		}
+	}
+
+	@include media-lg {
+		order: 0;
+		width: 60%;
+		transform: translate(-2rem, 0.5rem);
+		padding-top: 0;
+	}
+
+	@include media-xl {
+		width: 50%;
+	}
+}
+
+.cta__image {
+	width: 27.3rem;
+	height: 22.4rem;
+
+	@include media-lg {
+		width: 52.2rem;
+		height: auto;
+	}
+}

@@ -3,6 +3,7 @@ import React from 'react'
 import ReactHelmet from '../components/ReactHelmet'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import Cta from '../components/CTA'
 
 class App extends React.Component {
 	render() {
@@ -11,6 +12,7 @@ class App extends React.Component {
 				<ReactHelmet />
 				<Header />
 				<Hero />
+				<Cta />
 			</div>
 		)
 	}
