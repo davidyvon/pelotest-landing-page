@@ -88,6 +88,15 @@
 	border-radius: 2px;
 	color: $primary;
 	background-color: $dark;
+	transition: opacity 0.3s ease-out;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:hover > .cta__arrow-icon {
+		transform: translateX(0.8rem);
+	}
 
 	@include media-lg {
 		max-width: 30.3rem;
@@ -96,6 +105,7 @@
 
 	.cta__arrow-icon {
 		margin-left: 1rem;
+		transition: transform 0.3s ease-out;
 		filter: invert(91%) sepia(12%) saturate(1004%) hue-rotate(48deg) brightness(103%) contrast(102%);
 	}
 }
