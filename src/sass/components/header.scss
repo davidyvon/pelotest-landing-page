@@ -1,0 +1,15 @@
+.header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 2.4rem 2.4rem 7.1rem 2.4rem;
+
+	@include media-md {
+		padding: 4.72rem 10.7rem 7.55rem 10.7rem;
+	}
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+}
