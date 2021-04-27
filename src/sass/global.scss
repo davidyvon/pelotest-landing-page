@@ -1,0 +1,79 @@
+// ------------------------------------------------------------
+//  RESET
+// ------------------------------------------------------------
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+// ------------------------------------------------------------
+//  MAIN
+// ------------------------------------------------------------
+
+body {
+	background-color: $dark;
+}
+
+// ------------------------------------------------------------
+//  TYPOGRAPHY
+// ------------------------------------------------------------
+
+@font-face {
+	font-family: 'Resolve Sans';
+	src: url('../fonts/resolve-sans-medium.otf') format('opentype');
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: $normal;
+	color: $white;
+}
+
+h1,
+h2,
+h3 {
+	font-family: 'Resolve Sans';
+	text-transform: uppercase;
+	font-weight: $normal;
+	color: $primary;
+}
+
+h1 {
+	font-size: 11.8rem;
+	line-height: 11.8rem;
+}
+
+h2 {
+	font-size: 4rem;
+	line-height: 4rem;
+	color: $dark;
+}
+
+h3 {
+	font-size: 3.2rem;
+	line-height: 3.2rem;
+	letter-spacing: 0.03em;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+	outline: none;
+}
+
+button {
+	outline: none;
+	border: none;
+}

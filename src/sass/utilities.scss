@@ -1,0 +1,55 @@
+// ------------------------------------------------------------
+//  VARIABLES
+// ------------------------------------------------------------
+
+$primary: hsl(101, 100%, 84%);
+$dark: hsl(0, 0%, 13%);
+$light: hsl(82, 38%, 94%);
+$white: hsl(0, 0%, 100%);
+
+$normal: 400;
+$bold: 700;
+
+// ------------------------------------------------------------
+//  MIXINS
+// ------------------------------------------------------------
+
+// Small devices (landscape phones, 576px and up)
+$screen-sm: 576px;
+@mixin media-sm {
+	@media (min-width: #{$screen-sm}) {
+		@content;
+	}
+}
+
+// Medium devices (tablets, 768px and up)
+$screen-md: 768px;
+@mixin media-md {
+	@media (min-width: #{$screen-md}) {
+		@content;
+	}
+}
+
+// Large devices (desktops, 992px and up)
+$screen-lg: 992px;
+@mixin media-lg {
+	@media (min-width: #{$screen-lg}) {
+		@content;
+	}
+}
+
+// X-Large devices (large desktops, 1200px and up)
+$screen-xl: 1200px;
+@mixin media-xl {
+	@media (min-width: #{$screen-xl}) {
+		@content;
+	}
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+$screen-xxl: 1400px;
+@mixin media-xxl {
+	@media (min-width: #{$screen-xxl}) {
+		@content;
+	}
+}
