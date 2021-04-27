@@ -8,7 +8,7 @@ import arrowIcon from '../images/arrow-icon.svg'
 const Hero = () => {
 	return (
 		<section className='hero'>
-			<div className='hero__content'>
+			<article className='hero__content'>
 				<h1 className='hero__heading'>
 					<span>City</span> & Concrete
 				</h1>
@@ -20,7 +20,7 @@ const Hero = () => {
 					Let's Signup
 					<img className='hero__arrow-icon' src={arrowIcon} alt='' />
 				</Link>
-			</div>
+			</article>
 
 			<div className='hero__image-container'>
 				<img className='hero__image' src={heroImage} alt='City and concrete' />

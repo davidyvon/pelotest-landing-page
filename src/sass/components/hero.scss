@@ -72,6 +72,15 @@
 	border-radius: 2px;
 	color: $dark;
 	background-color: $primary;
+	transition: opacity 0.3s ease-out, transform 0.3s ease-out;
+
+	&:hover {
+		opacity: 0.8;
+	}
+
+	&:hover > .hero__arrow-icon {
+		transform: translateX(0.8rem);
+	}
 
 	@include media-md {
 		max-width: 23.2rem;
@@ -79,6 +88,7 @@
 
 	.hero__arrow-icon {
 		margin-left: 1rem;
+		transition: transform 0.3s ease-out;
 	}
 }
 
@@ -103,6 +113,7 @@
 
 	@include media-lg {
 		position: relative;
+
 		z-index: -1;
 		max-width: 64rem;
 		max-height: 64.9rem;
