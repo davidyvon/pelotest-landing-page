@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
+
+import Navbar from '../components/Navbar'
 import logo from '../images/pelotest-logo.svg'
 import '../sass/components/header.scss'
 
@@ -9,6 +11,7 @@ const Header = () => {
 			<Link className='logo' to='#home'>
 				<img src={logo} alt='Pelotest logo' />
 			</Link>
+			<Navbar />
 		</header>
 	)
 }

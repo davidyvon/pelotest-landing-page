@@ -1,0 +1,93 @@
+.nav-container {
+	position: absolute;
+	z-index: 1;
+	left: 0;
+	top: 8rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 4rem;
+	background-color: $primary;
+	transition: transform 0.5s ease-in-out;
+	transform: translateX(-100%);
+
+	&.active {
+		transform: translateX(0);
+	}
+
+	@include media-lg {
+		position: relative;
+		top: 0;
+		padding: 0;
+		display: flex;
+		flex-direction: row;
+		transform: none;
+		background-color: $dark;
+	}
+}
+
+.nav {
+	@include media-lg {
+		margin-left: auto;
+	}
+}
+
+.nav__list {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	@include media-lg {
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+	}
+}
+
+.nav__item {
+	&:not(:last-child) {
+		margin-bottom: 4rem;
+	}
+
+	@include media-lg {
+		&:not(:last-child) {
+			margin: 0 4rem 0 0;
+		}
+	}
+}
+
+.nav__link {
+	font-size: 2rem;
+	letter-spacing: 0.05rem;
+	font-weight: $bold;
+	text-transform: uppercase;
+	color: $dark;
+
+	@include media-lg {
+		font: 1.2rem;
+		color: $white;
+	}
+}
+
+.menu {
+	outline: none;
+	border: none;
+	background: transparent;
+	height: 3.8rem;
+
+	&:hover {
+		cursor: pointer;
+	}
+
+	@include media-lg {
+		display: none;
+	}
+}
+
+.menu--open,
+.menu--close {
+	color: $white;
+}
