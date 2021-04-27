@@ -1,0 +1,45 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 11rem 0;
+
+	@include media-lg {
+		margin: 0 0 13.5rem 0;
+	}
+}
+
+.footer__logo {
+	margin-bottom: 6rem;
+}
+
+.footer__nav {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	@include media-lg {
+		flex-direction: row;
+	}
+}
+
+.footer__link {
+	font-size: 1.2rem;
+	line-height: 1.2rem;
+	letter-spacing: 0.05em;
+	font-weight: $bold;
+	text-transform: uppercase;
+	color: $white;
+
+	&:not(:last-child) {
+		margin: 0 0 8rem 0;
+	}
+
+	@include media-lg {
+		&:not(:last-child) {
+			margin: 0 8rem 0 0;
+		}
+	}
+}
