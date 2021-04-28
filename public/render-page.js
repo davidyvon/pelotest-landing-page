@@ -3741,7 +3741,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "53aa06cf17e4239d0dba6ffd09854e02"
+    "cacheDigest": "7c3ba645a8980c09e5455299f172ec07"
   }
 }, {
   name: 'gatsby-plugin-manifest',
@@ -3760,7 +3760,7 @@ var plugins = [{
     "cache_busting_mode": "query",
     "crossOrigin": "anonymous",
     "include_favicon": true,
-    "cacheDigest": "53aa06cf17e4239d0dba6ffd09854e02"
+    "cacheDigest": "7c3ba645a8980c09e5455299f172ec07"
   }
 }, {
   name: 'gatsby-plugin-mdx',
