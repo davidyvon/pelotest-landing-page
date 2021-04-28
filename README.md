@@ -4,7 +4,7 @@ A landing page for a fictional Travel App
 
 [<img src="./src/images/readme/preview.png">](https://pelotest-app.netlify.app/)
 
-Design by [Pelo Studio](https:pelo.studio/) !
+Design by [Pelo Studio](https://pelo.studio/) !
 
 ## Hi ! 👋
 
