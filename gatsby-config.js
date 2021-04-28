@@ -1,7 +1,8 @@
 module.exports = {
 	siteMetadata: {
 		title: 'Pelotest',
-		description: 'A landing page for a fictional Travel App. Designed by Pelo Studio, coded by David Yvon'
+		description: 'A landing page for a fictional Travel App. Designed by Pelo Studio, coded by David Yvon',
+		siteUrl: 'localhost:8000'
 	},
 	plugins: [
 		{
