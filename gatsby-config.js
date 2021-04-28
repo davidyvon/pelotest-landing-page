@@ -3,7 +3,7 @@ module.exports = {
 		title: 'Pelotest',
 		description: 'A landing page for a fictional Travel App. Designed by Pelo Studio, coded by David Yvon',
 		author: 'David Yvon',
-		siteUrl: 'https://blissful-allen-6b3968.netlify.app'
+		siteUrl: 'localhost:8000'
 	},
 	plugins: [
 		{
@@ -78,8 +78,8 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-robots-txt',
 			options: {
-				host: 'https://blissful-allen-6b3968.netlify.app',
-				site: 'https://blissful-allen-6b3968.netlify.app/sitemap.xml',
+				// host: 'https://blissful-allen-6b3968.netlify.app',
+				// site: 'https://blissful-allen-6b3968.netlify.app/sitemap.xml',
 				policy: [{ userAgent: '*', allow: '/' }]
 			}
 		}
