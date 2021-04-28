@@ -14,7 +14,7 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-google-fonts',
 			options: {
-				fonts: ['Open Sans\:400,700'],
+				fonts: ['Open Sans:400,700'],
 				display: 'swap'
 			}
 		},
@@ -73,6 +73,14 @@ module.exports = {
 				path: './src/pages/'
 			},
 			__key: 'pages'
+		},
+		{
+			resolve: 'gatsby-plugin-robots-txt',
+			options: {
+				// host: 'https://www.site.com',
+				// sitemap: 'https://www.site.com/sitemap.xml',
+				policy: [{ userAgent: '*', allow: '/' }]
+			}
 		}
 	]
 }
