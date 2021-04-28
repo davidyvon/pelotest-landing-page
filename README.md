@@ -2,13 +2,13 @@
 
 A landing page for a fictional Travel App
 
-[<img src="./src/images/readme/preview.png">](https://davidyvon.github.io//)
+[<img src="./src/images/readme/preview.png">](https://pelotest-app.netlify.app/)
 
 Design by [Pelo Studio](https://https://pelo.studio/) !
 
 ## Hi ! 👋
 
-**Thanks for checking out this [project](https://davidyvon.github.io//) !**
+**Thanks for checking out this [project](https://pelotest-app.netlify.app/) !**
 
 ## General info
 
