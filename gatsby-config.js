@@ -1,8 +1,9 @@
 module.exports = {
 	siteMetadata: {
 		title: 'Pelotest',
-		siteUrl: 'https://www.davidyvon.com',
-		description: 'Designed by Pelo Studio, coded by David Yvon'
+		description: 'A landing page for a fictional Travel App. Designed by Pelo Studio, coded by David Yvon',
+		author: 'David Yvon',
+		siteUrl: 'https://www.davidyvon.com'
 	},
 	plugins: [
 		{
@@ -77,8 +78,8 @@ module.exports = {
 		{
 			resolve: 'gatsby-plugin-robots-txt',
 			options: {
-				// host: 'https://www.davidyvon.com',
-				// sitemap: 'https://www.davidyvon.com/sitemap.xml',
+				host: 'https://www.davidyvon.com',
+				site: 'https://www.davidyvon.com/sitemap.xml',
 				policy: [{ userAgent: '*', allow: '/' }]
 			}
 		}
