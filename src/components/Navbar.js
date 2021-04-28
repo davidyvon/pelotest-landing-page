@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import '../sass/components/navbar.scss'
 
-import { GiHamburgerMenu } from 'react-icons/gi'
-import { IoCloseSharp } from 'react-icons/io5'
+import open from '../images/menu-open.png'
+import close from '../images/menu-close.png'
 
 const Navbar = () => {
 	const [navbarOpen, setNavbarOpen] = useState(false)
@@ -42,9 +42,9 @@ const Navbar = () => {
 
 			<button className='menu'>
 				{!navbarOpen ? (
-					<GiHamburgerMenu className='menu__open' size={32} onClick={handleToggle} />
+					<img src={open} alt='menu__open' onClick={handleToggle} />
 				) : (
-					<IoCloseSharp className='menu__close' size={36} onClick={handleToggle} />
+					<img src={close} alt='menu__close' onClick={handleToggle} />
 				)}
 			</button>
 		</>
