@@ -23,7 +23,7 @@ const ImageSlider = ({ slides }) => {
 	}
 
 	return (
-		<section className='image-slider'>
+		<section className='image-slider' data-sal='slide-up' data-sal-delay='500' data-sal-duration='800'>
 			{data.map((slide, index) => {
 				return (
 					<div className={index === current ? 'slide active' : 'slide'} key={index}>

@@ -7,7 +7,7 @@ import arrowIcon from '../images/arrow-icon.svg'
 
 const CTA = () => {
 	return (
-		<section className='cta'>
+		<section className='cta' data-sal='slide-up' data-sal-delay='500' data-sal-duration='500'>
 			<div className='cta__image-container'>
 				<img className='cta__image' src={mockupImage} alt='App on mobile phone' />
 			</div>

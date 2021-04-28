@@ -8,7 +8,7 @@ import arrowIcon from '../images/arrow-icon.svg'
 const Hero = () => {
 	return (
 		<section className='hero'>
-			<article className='hero__content'>
+			<article className='hero__content' data-sal='slide-right' data-sal-delay='200' data-sal-duration='500'>
 				<h1 className='hero__heading'>
 					<span>City</span> & Concrete
 				</h1>
@@ -22,7 +22,7 @@ const Hero = () => {
 				</Link>
 			</article>
 
-			<div className='hero__image-container'>
+			<div className='hero__image-container' data-sal='slide-down' data-sal-delay='100' data-sal-duration='500'>
 				<img className='hero__image' src={heroImage} alt='City and concrete' />
 			</div>
 		</section>

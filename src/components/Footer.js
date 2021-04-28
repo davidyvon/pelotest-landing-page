@@ -6,7 +6,7 @@ import logo from '../images/pelotest-logo.svg'
 
 const Footer = () => {
 	return (
-		<footer className='footer'>
+		<footer className='footer' data-sal='fade' data-sal-delay='500' data-sal-duration='500'>
 			<Link className='footer__logo' to='#home'>
 				<img src={logo} alt='Pelotest logo' />
 			</Link>

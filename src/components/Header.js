@@ -7,7 +7,7 @@ import '../sass/components/header.scss'
 
 const Header = () => {
 	return (
-		<header className='header'>
+		<header className='header' data-sal='fade' data-sal-delay='1000' data-sal-duration='500'>
 			<Link className='logo' to='#home'>
 				<img src={logo} alt='Pelotest logo' />
 			</Link>
