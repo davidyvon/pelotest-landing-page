@@ -32,9 +32,14 @@
 	font-weight: $bold;
 	text-transform: uppercase;
 	color: $white;
+	transition: color 0.3s ease-out;
 
 	&:not(:last-child) {
 		margin: 0 0 8rem 0;
+	}
+
+	&:hover {
+		color: $primary;
 	}
 
 	@include media-lg {
