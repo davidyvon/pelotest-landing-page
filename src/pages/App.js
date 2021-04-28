@@ -1,7 +1,7 @@
 import React from 'react'
 import { SliderData } from '../components/SliderData'
 
-import ReactHelmet from '../components/ReactHelmet'
+import Layout from '../components/Layout'
 import Header from '../components/Header'
 import Hero from '../components/Hero'
 import ImageSlider from '../components/ImageSlider'
@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
 const App = () => {
 	return (
 		<div className='app'>
-			<ReactHelmet />
+			<Layout />
 			<Header />
 			<Hero />
 			<ImageSlider slides={SliderData} />

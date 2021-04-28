@@ -1,7 +1,7 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 
-const ReactHelmet = () => {
+const Layout = () => {
 	return (
 		<Helmet>
 			<html lang='en' />
@@ -18,4 +18,4 @@ const ReactHelmet = () => {
 	)
 }
 
-export default ReactHelmet
+export default Layout
