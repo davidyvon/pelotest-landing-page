@@ -13,7 +13,7 @@ const CTA = () => {
 			</div>
 
 			<article className='cta__content'>
-				<h2 className='cta__heading'>Discover our brand new city travel app</h2>
+				<h3 className='cta__heading'>Discover our brand new city travel app</h3>
 				<p className='cta__paragraph'>
 					Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Fusce dapibus, tellus ac cursus
 					commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.

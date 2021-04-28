@@ -30,7 +30,7 @@ const ImageSlider = ({ slides }) => {
 						{index === current && (
 							<div className='image-slider__container'>
 								<img className='image-slider__icon-container' src={slide.icon} alt='' />
-								<h3 className='image-slider__heading'>{slide.heading}</h3>
+								<h2 className='image-slider__heading'>{slide.heading}</h2>
 								<p className='image-slider__paragraph'>{slide.paragraph}</p>
 								<img
 									className='image-slider__arrow image-slider__arrow--left'
