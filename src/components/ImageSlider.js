@@ -37,12 +37,16 @@ const ImageSlider = ({ slides }) => {
 									alt='Previous slide'
 									src={arrowLeft}
 									onClick={prevSlide}
+									onKeyDown={prevSlide}
+									role='presentation'
 								/>
 								<img
 									className='image-slider__arrow image-slider__arrow--right'
 									alt='Next slide'
 									src={arrowRight}
 									onClick={nextSlide}
+									onKeyDown={nextSlide}
+									role='presentation'
 								/>
 							</div>
 						)}
